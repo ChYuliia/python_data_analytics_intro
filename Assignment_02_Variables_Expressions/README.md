@@ -1,54 +1,30 @@
-\# Assignment 02: Variables, Expressions, and Statements
-
-
+# Assignment 02: Variables, Expressions, and Statements
 
 This assignment covers foundational Python programming concepts, including user input handling, type conversion (`float()`), arithmetic expressions, formatted strings (`f-strings`), and variable assignment based on course curriculum requirements. The program computes gross pay using dynamic user prompts and test benchmarks.
 
+---
 
+## Technical Stack & Environment
 
-\---
+* **Language:** Python 3+
+* **Environment:** Jupyter Notebook (`.ipynb`)
+* **Reference Curriculum:** CIS 2266 / Python for Data Analysis / Programming Logic
 
+---
 
-
-\## Technical Stack \& Environment
-
-
-
-\* \*\*Language:\*\* Python 3+
-
-\* \*\*Environment:\*\* Jupyter Notebook (`.ipynb`)
-
-\* \*\*Reference Curriculum:\*\* CIS 2260 / Python for Data Analysis / Programming Logic
-
-
-
-\---
-
-
-
-\## Repository Structure
-
-
+## Repository Structure
 
 ```text
-
-Assignment\_02\_Variables\_Expressions/
-
+Assignment_02_Variables_Expressions/
 ├── docs/
-
-│   └── Assignment\_02\_Variables\_Expressions.pdf      # Exported worksheet report\[cite: 4]
-
+│   └── Assignment_02_Variables_Expressions.pdf      # Exported worksheet report
 ├── notebooks/
-
-│   └── Assignment\_02\_Variables\_Expressions.ipynb    # Executed analysis notebook
-
+│   └── Assignment_02_Variables_Expressions.ipynb    # Executed analysis notebook
 └── README.md
 
 ```
 
-
-
-\---
+---
 
 ## Workflow & Core Concepts
 
@@ -74,8 +50,9 @@ How to Run
      ```
 	
 3. Launch Jupyter Notebook:
+     ```Bash
+     jupyter notebook
+     ```
+5. In the browser window that opens automatically, navigate to the `notebooks/` folder and open `Assignment_02_Variables_Expressions.ipynb`.
 
-4. In the browser window that opens automatically, navigate to the notebooks/ folder and open Assignment_02_Variables_Expressions.ipynb.
-
-5. Run all cells sequentially to execute the interactive prompts and view calculations.
-EOF
+6. Run all cells sequentially to execute the interactive prompts and view calculations.
