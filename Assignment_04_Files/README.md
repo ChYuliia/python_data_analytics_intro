@@ -19,6 +19,7 @@ Assignment_04_Files/
 ├── docs/
 │   └── Assignment_04_Files.pdf             # Exported assignment documentation
 ├── notebooks/
+│   ├── Assignment_04_Files.ipynb           # Executed analysis notebook
 │   └── mbox-short.txt                      # Source dataset for text parsing
 └── README.md
 ```
